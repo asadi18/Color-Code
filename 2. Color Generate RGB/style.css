@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    padding: 10px 15px;
+    font-size: medium;
+    border: none;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    border: 1px solid cyan;
+    
+}
+h1{
+    text-align: center;
+}
